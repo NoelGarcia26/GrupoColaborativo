@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Colaborativo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <style>
+        body {
+            background-color: #000;
+            color: #0ef;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #0ef;
+            text-shadow: 0 0 10px #0ef, 0 0 20px #00f, 0 0 30px #00ea10;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .list-container {
+            border-spacing: 10px; /* Espacio entre cada fila de la lista */
+        }
+        .list-group-item {
+            background-color: transparent;
+            border: 2px solid #0ef; /* Borde visible y más grueso */
+            color: #0ef;
+            text-shadow: 0 0 5px #0ef;
+            transition: all 0.3s ease-in-out;
+            box-sizing: border-box; /* Asegura que el borde se calcule correctamente */
+        }
+        .list-group-item:hover {
+            background-color: #0ef;
+            color: #000;
+        }
+        .btn-neon {
+            background-color: #00ea10;
+            border: none;
+            color: #000;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn-neon:hover {
+            background-color: #9a00ff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grupo Colaborativo</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 list-container">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Fabio Noel Garcia Salgado - Moderador
+                        <button class="btn btn-neon">Cambios</button>
+                    </li>
+
+                    <!-- Agrega más opciones aquí -->
+
+                </ul>
+            </div>
+            <div class="col-md-6 list-container">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Opción 1
+                        <button class="btn btn-neon">Botón 1</button>
+                    </li>
+
+                    <!-- Agrega más opciones aquí -->
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
